@@ -1,13 +1,13 @@
 //
-//  IMKitSampleUITestsLaunchTests.swift
-//  IMKitSampleUITests
+// MoodbitUITestsLaunchTests.swift
+// MoodbitUITests
 //
 //  Created by β α on 2021/09/07.
 //
 
 import XCTest
 
-class IMKitSampleUITestsLaunchTests: XCTestCase {
+class MoodbitUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

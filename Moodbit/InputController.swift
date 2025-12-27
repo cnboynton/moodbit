@@ -1,6 +1,6 @@
 //
-//  IMKitSampleInputController.swift
-//  IMKitSampleInputController
+//  MoodbitInputController.swift
+//  MoodbitInputController
 //
 //  Created by ensan on 2021/09/07.
 //

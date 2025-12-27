@@ -1,0 +1,26 @@
+{
+  "" : {
+    "const-values" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/Moodbit-primary.swiftconstvalues",
+    "dependencies" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/Moodbit-primary.d",
+    "diagnostics" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/Moodbit-primary.dia",
+    "emit-module-dependencies" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/Moodbit-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/Moodbit-primary-emit-module.dia",
+    "pch" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/Moodbit-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/Moodbit-primary.swiftdeps"
+  },
+  "/Users/chesterboynton/Desktop/dev/moodbit/Moodbit/AppDelegate.swift" : {
+    "index-unit-output-path" : "/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/AppDelegate.o"
+  },
+  "/Users/chesterboynton/Desktop/dev/moodbit/Moodbit/InputController.swift" : {
+    "index-unit-output-path" : "/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/InputController.o",
+    "llvm-bc" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/InputController.bc",
+    "object" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/InputController.o"
+  },
+  "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/chesterboynton/Desktop/dev/moodbit/build/Moodbit.build/Release/Moodbit.build/Objects-normal/x86_64/GeneratedAssetSymbols.o"
+  }
+}
