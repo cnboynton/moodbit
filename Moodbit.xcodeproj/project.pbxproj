@@ -14,7 +14,7 @@
 		1A41E63526E745DD009B65D7 /* MoodbitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A41E63426E745DD009B65D7 /* MoodbitUITestsLaunchTests.swift */; };
 		1A41E64226E74627009B65D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A41E64126E74627009B65D7 /* AppDelegate.swift */; };
 		1A41E64426E74669009B65D7 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A41E64326E74669009B65D7 /* InputController.swift */; };
-		C4CAAE402F004E3B0024DF8B /* final.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C4CAAE3F2F004E3B0024DF8B /* final.tiff */; };
+		C478FB422F0D98E500FACEF9 /* icon-white-18.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C478FB412F0D98E500FACEF9 /* icon-white-18.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		1A41E64326E74669009B65D7 /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
 		1A41E64526E7470D009B65D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1A41E64826E7495A009B65D7 /* Moodbit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moodbit.entitlements; sourceTree = "<group>"; };
-		C4CAAE3F2F004E3B0024DF8B /* final.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = final.tiff; sourceTree = "<group>"; };
+		C478FB412F0D98E500FACEF9 /* icon-white-18.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "icon-white-18.tiff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			children = (
 				1A41E64526E7470D009B65D7 /* Info.plist */,
 				1A41E64826E7495A009B65D7 /* Moodbit.entitlements */,
+				C478FB412F0D98E500FACEF9 /* icon-white-18.tiff */,
 				1A41E64326E74669009B65D7 /* InputController.swift */,
-				C4CAAE3F2F004E3B0024DF8B /* final.tiff */,
 				1A41E64126E74627009B65D7 /* AppDelegate.swift */,
 				1A41E61B26E745DD009B65D7 /* Assets.xcassets */,
 				1A41E61D26E745DD009B65D7 /* Preview Content */,
@@ -239,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A41E61F26E745DD009B65D7 /* Preview Assets.xcassets in Resources */,
+				C478FB422F0D98E500FACEF9 /* icon-white-18.tiff in Resources */,
 				1A41E61C26E745DD009B65D7 /* Assets.xcassets in Resources */,
-				C4CAAE402F004E3B0024DF8B /* final.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
