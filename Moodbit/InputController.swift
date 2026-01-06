@@ -8,19 +8,19 @@
 import Cocoa
 import InputMethodKit
 
-var sampleEmojis: [String:String] = [
-    ":fire":"🔥",
-    ":happy":"😆"
+var sampleEmojis: [String: String] = [
+    ":fire": "🔥",
+    ":happy": "😆"
 ]
 
-enum collectionState {
+enum CollectionState {
     case idle, spaceDetected, live
 }
 
 @objc(InputController)
 class InputController: IMKInputController {
 
-    private var collectionState: collectionState = .idle
+    private var collectionState: CollectionState = .idle
     private var buffer: String = ""
     private var selectedEmoji: String = ""
     private var compStartLocation: Int = 0
@@ -35,15 +35,32 @@ class InputController: IMKInputController {
         if self.collectionState == .live {
             // IF TERMINATED
             if string == " " {
-                if sampleEmojis.keys.contains(buffer) { selectedEmoji = sampleEmojis[buffer]! }
-                else { selectedEmoji = buffer }
-                compLength = buffer.count
+                // Get the actual text that's currently on screen
+                let selectedRange = client.selectedRange()
+                let actualLength = selectedRange.location - compStartLocation
+                
+                // Read what's actually on screen to build the buffer from reality
+                if let actualText = client.attributedSubstring(from: NSRange(location: compStartLocation, length: actualLength))?.string {
+                    buffer = actualText
+                }
+                
+                if sampleEmojis.keys.contains(buffer) {
+                    selectedEmoji = sampleEmojis[buffer]!
+                } else {
+                    selectedEmoji = buffer
+                }
                 buffer = "" // clear buffer
-                client.insertText(selectedEmoji, replacementRange: NSRange(location: compStartLocation, length: compLength))
+                client.insertText(selectedEmoji, replacementRange: NSRange(location: compStartLocation, length: actualLength))
                 client.insertText(" ", replacementRange: NSRange(location: NSNotFound, length: NSNotFound))
                 self.collectionState = .spaceDetected
                 return true
             }
+            
+            // Don't track deletes in buffer - let the screen handle it naturally
+            if string == "\u{7F}" { // Delete key
+                return false
+            }
+            
             buffer += string
             NSLog(string)
             return false
